@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space and Galaxies form</title>
+  </head>
+  <body>
+    <!-- This form allows the user to provide information about space and galaxies to the developer. -->
+    <form id="knowing-you" name="space-and-galaxies" method="get">
+      <!-- This fieldset contains the questions for the user. 
+      
+      This fieldset is used to gather the questions for the user to answer 
+      The questions are related to space and galaxies, and they are required fields. 
+      The user must provide answers to all the questions before submitting the form.
+
+      -->
+      <fieldset>
+        <legend>Questions For You:</legend>
+        <br />
+        <label for="First-Question"
+          >What's your name? [Required]&nbsp;&nbsp;</label
+        >
+        <!-- This creates a text input box where the user will enter their Name.
+      -->
+        <input type="text" id="First-Question" name="First-Question" required />
+        <br />
+        <br />
+        <label for="Second-Question"
+          >what is your favorite planet? [Required]&nbsp;&nbsp;</label
+        >
+        <input
+          type="text"
+          id="Second-Question"
+          name="Second-Question"
+          required />
+        <br />
+        <br />
+        <label for="Third-Question"
+          >What do you like about space? [Required]&nbsp;&nbsp;</label
+        >
+        <input type="text" id="Third-Question" name="Third-Question" required />
+        <br />
+        <br />
+        <label for="Fourth-Question"
+          >What do you want to know about space? [Required]&nbsp;&nbsp;</label
+        >
+        <input
+          type="text"
+          id="Fourth-Question"
+          name="Fourth-Question"
+          required />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+    <br />
+    <a href="index.html">Return to Main Page:</a>
+  </body>
+</html>
