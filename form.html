@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space and Galaxies form</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="planets.html">Planets Explanations</a></li>
+          <li>
+            <a href="form.html">
+              Answer these questions about Space and Galaxies if you want to.
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- This form allows the user to provide information about space and galaxies to the developer. -->
+      <form id="knowing-you" name="space-and-galaxies" method="get">
+        <!-- This fieldset groups all four questions together.
+      The questions are related to space and galaxies.
+      The first four questions are required before submitting the form. -->
+        <fieldset>
+          <legend>Questions For You:</legend>
+          <br />
+          <!-- This question asks the user to enter their name so the developer knows who is answering the form. -->
+          <label for="First-Question"
+            >What's your name? [Required]&nbsp;&nbsp;</label
+          >
+          <!-- This creates a text input box where the user will enter their name/answer.-->
+          <input
+            type="text"
+            id="First-Question"
+            name="First-Question"
+            required />
+          <br />
+          <br />
+          <!-- This question asks the user about their favorite planet to learn which planet they like the most. -->
+          <label for="Second-Question"
+            >What is your favorite planet? [Required]&nbsp;&nbsp;</label
+          >
+          <input
+            type="text"
+            id="Second-Question"
+            name="Second-Question"
+            required />
+          <br />
+          <br />
+          <!-- This question asks the user what they find interesting or enjoyable about space. -->
+          <label for="Third-Question"
+            >What do you like about space? [Required]&nbsp;&nbsp;</label
+          >
+          <input
+            type="text"
+            id="Third-Question"
+            name="Third-Question"
+            required />
+          <br />
+          <br />
+          <!-- This question asks the user what they are curious about and what they would like to learn about space. -->
+          <label for="Fourth-Question"
+            >What do you want to know about space? [Required]&nbsp;&nbsp;</label
+          >
+          <input
+            type="text"
+            id="Fourth-Question"
+            name="Fourth-Question"
+            required />
+          <br />
+          <br />
+          <!-- This creates a telephone input where users can enter their phone number. -->
+          <label for="Sixth-Question">Your phone number: </label>
+          <input type="tel" id="Sixth-Question" name="phone" />
+          <br />
+          <br />
+          <!-- This creates an email input where users can enter their email address. -->
+          <label for="Seventh-Question">Your Email Address:</label>
+          <input type="email" id="Seventh-Question" name="email" />
+          <br />
+          <br />
+          <!-- This creates a range slider that allows users to rate their interest in space from 1 to 10. -->
+          <label for="Eighth-Question">How interested are you in space?</label>
+          <input
+            type="range"
+            id="Eighth-Question"
+            name="interest"
+            min="1"
+            max="10" />
+          <!-- This creates a submit button that sends the user's answers. -->
+          <input type="submit" value="Submit" />
+          <br />
+        </fieldset>
+      </form>
+    </main>
+    <br />
+    <nav>
+      <a href="index.html">Return to Main Page:</a>
+    </nav>
+    <br />
+    <footer>
+      <p><b>&copy; 2026 Shiwei</b></p>
+      <p>
+        <b
+          ><a href="mailto:shiwei@example.com"
+            >Contact: shiwei@example.com</a
+          ></b
+        >
+      </p>
+    </footer>
+  </body>
+</html>
